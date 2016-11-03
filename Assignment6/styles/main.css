@@ -1,1 +1,58 @@
+.Heading{
+  color: #ffffff;
+  background-color: #00aaaa;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-shadow: 10px 10px 10px #000000;
 
+
+}
+.sidebarmain{
+  float: left;
+  width: 30%;
+}
+.content{
+  float: right;
+  width: 70%;
+}
+
+.images{
+  display: inline-block;
+}
+.images1{
+  display: inline-block;
+
+
+}
+
+
+
+footer{
+  color: #aa0000;
+  text-decoration: none;
+  font-weight: bold;
+  clear: both;
+}
+.Red{
+  color: #aa0000;
+  font-weight: bold;
+  font-family: Arial;
+
+}
+.heading1 {
+  color: #aa0000;
+  font-weight: bold;
+  font-family: Arial;
+}
+.green{
+  color: #55aa00;
+}
+.Removal{
+  text-decoration: none;
+  color: #aa0000;
+}
+.mediumheader,.smallheader{
+  color: #aa0000;
+}
