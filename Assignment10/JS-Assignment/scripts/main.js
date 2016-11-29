@@ -7,6 +7,8 @@ function update() {
     var lastName = getValue('lastName');
     console.log(firstName);
     console.log(lastName);
+    var name ='FirstName'+ 'lastName';
+    document.getValue(p1_fullname).innerHtml= name;
 
 
 
@@ -14,11 +16,15 @@ function update() {
     // Part 2
     var emailAddress = getValue('emailAddress');
     console.log(emailAddress);
+    var email= 'Both Fields Are Filled Out:';
+    document.getValue('p1_valid').innerHtml=email;
 
 
     // Part 3
     var randomNumber = getValue('randomNumber');
     console.log(randomNumber);
+    var random= 'FullName.length';
+    document.getValue('P1_fullNameLength').innnerHtml=random;
 
 
 
@@ -26,6 +32,7 @@ function update() {
     // Part 4
     var arrayInput = getValue('arrayValue');
     console.log(arrayInput);
+    
 
 
 

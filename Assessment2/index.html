@@ -1,15 +1,65 @@
 <!doctype html>
 <html>
+<head>
+  <title>Sweepstakes</title>
+  <link rel="stylesheet" href="styles/main.css">
+<body>
+</head>
+    <header class="header">
+      <div class="header1">
 
-    <head>
-        <title>Sweepstakes</title>
-        <link rel="stylesheet" href="styles/main.css">
-    </head>
 
-    <body>
-        <form>
+        <h1>Bioplex </h1>
+        <h2>
+            Fusce a congue nunc. Proin iaculis accumsan mi, eget sodales orci.</h2>
+      </div>
+    </header>
+
+      <nav class="navy">
+        <ul>
+          <li> <a href="#"></a>Home</li>
+          <li><a href="#"></a>Recipes</li>
+          <li><a href="#"></a>Products</li>
+          <li><a href="#"></a>FAQ</li>
+          <li><a href="#"></a>Contact</li>
+        </ul>
+
+        <!--input-->
+        <button class="Search"type="button">Search</button>
+
+      </nav>
+      <article class="main">
+      <img class="img"src="images/blender.jpg">
+      <h1>Blender Sweepstakes</h1>
+      <p>
+        You are about to enter to win a brand new Bioplex SuperMax 1900. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.
+      </p>
+
+      </article>
+
+
+
+        <form class="name">
+        <div class="input1">
+          <label for="First Name"> First Name</label>
+          <input type="text" placeholder="First Name" id="firstName"></div>
+          <div class="input1">
+          <label for="lastName">Last Name</label>
+          <input type="text" id="lastName" placeholder="Last Name"></div>
+          <div class="input1">
+          <label for="emailAddress">Email Address</label>
+          <input type="email" id="emailAddress" placeholder="Email Address"></div>
+          <div class="input1">
+          <label for="hear">How did you find us?</label>
+          <select name="" id="hear" title="How did you find us"> <option value=""></option> <option>Word of Mouth</option> <option>Facebook</option> </select></div>
+
+            <div class="input1"><label for="use">Why do you need this blender?</label>
+            <textarea id="use" placeholder="Why you need this"></textarea></div>
+          <div class="terms">  <input type="checkbox" name="By" value="By">By checking this box you accept our terms and conditions.<br></div>
+
+<div class="form-controls">
             <button id="btnSubmit" type="button">Submit</button>
-            <button type="reset">Reset</button>
+            <button class="Reset"type="reset">Reset</button> </div>
         </form>
         <script src="scripts/main.js"></script>
     </body>

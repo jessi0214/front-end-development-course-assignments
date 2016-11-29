@@ -4,8 +4,8 @@
 //What is the value of y?
 var str = "Hello World";
 var y = str.indexOf('W');
-//Answer:
-//y = ????
+//Answer= 'W'
+//y = W
 ///
 
 /////////
@@ -14,17 +14,17 @@ var y = str.indexOf('W');
 var str = "Hello World";
 var z = str.indexOf('h');
 //Answer:
-//z = ????
+//z =H
 ///
 
 
 /////////
 //Question 3
 //What is the value of a?
-var bo = 'true'; 
+var bo = 'true';
 var a = (bo === true);
 //Answer:
-//a = ????
+//a = False
 ///
 
 
@@ -34,7 +34,7 @@ var a = (bo === true);
 var jar = 'jar';
 var b = jar.length;
 //Answer
-//b = ?????
+//b = 3
 ////
 
 
@@ -42,8 +42,8 @@ var b = jar.length;
 //Question 5
 //What is the value of c?
 var c = parseInt('10.33');
-//Answer 
-//c = ?????
+//Answer
+//c = 10
 //
 
 ///////////
@@ -51,7 +51,7 @@ var c = parseInt('10.33');
 //What is the value of d?
 var d = parseFloat('text');
 //Answer
-//d = ??????
+//d = NAN
 //
 
 /////////
@@ -81,7 +81,7 @@ var e = arr2.length;
 var person = { firstname: 'Daniel', lastname: 'Worthy'}
 var f = person.firstname;
 //Answer:
-//f = ????? 
+//f = ?????
 
 ////////
 //Question 10

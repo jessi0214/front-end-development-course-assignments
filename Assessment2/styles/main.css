@@ -1,3 +1,125 @@
 * {
     box-sizing: border-box;
 }
+body{
+  margin: 0;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.header{
+  padding: 20px;
+background: #ce1717;
+display:block;
+}
+h1{
+  margin-bottom: 0;
+  color: #ffffff;
+  font-weight: 400;
+  padding:0;
+  margin:0;
+  display: block;
+    font-size: 2em;
+
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+h2{
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  color:#ffffff;
+  padding: 0;
+  margin: 0;
+  display: block;
+
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.navy{
+float: left;
+  display: block;
+  background-color:maroon;
+  width: 100%;
+}
+.navy li{
+  float: left;
+    display:block;
+    text-transform: uppercase;
+  text-decoration: underline;
+  cursor: auto;
+  color: #c1c1c1;
+  font-weight: 700;
+  padding: 10px 20px;
+
+
+}
+li a{
+  float: left;
+  text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    display:block;
+    cursor: auto;
+    color: #ffffff;
+}
+.Search{
+  float: right;
+}
+.img{
+  float: left;
+  display: block;
+}
+.main{
+  clear: both;
+}
+.main h1{
+  color: #000;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 400;
+  font-size: 2em;
+  display: block;
+
+}
+.main p{
+  margin-top: 20px;
+  font-size: 20px;
+  display: block;
+}
+.input1{
+  clear: both;
+}
+
+.name {
+  width: 60%;
+  margin:auto;
+  padding: 10px;
+
+
+}
+
+.input1 input,
+.input1 select ,
+.input1 textarea
+{
+  border: 1px solid #a00;
+    color: #a00;
+    float: right;
+    padding: 10px 20px;
+    width: 70%;
+    font-size: 18px;
+}
+
+.terms{
+  clear: both;
+  text-align: center;
+  padding: 10px 20px;
+
+
+
+}
+.form-controls{
+  clear: both;
+  text-align: center;
+  padding: 10px 20px
+}

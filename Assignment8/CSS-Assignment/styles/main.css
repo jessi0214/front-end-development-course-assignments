@@ -15,20 +15,25 @@ header{
   padding: 20px
 
 }
-.imggallery{
-  display: block;
-  margin: 0 auto;
-}
-footer{
-  background: #000000;
-  padding: 20px;
+.imggallery li{
+float: left;
+width: 25%;
+padding: 20px;
+text-align: center;
+list-style-type: none;
 }
 .footer1{
+  padding: 20px;
+  background-color: #000000;
+}
+.realfooter a{
   color: #ffffff;
   font-weight: normal;
   font-family: Times;
   text-decoration: none;
   font-size: 20px;
-  padding: 20px
+  padding: 30px
+  text-align:center;
+
 
 }
